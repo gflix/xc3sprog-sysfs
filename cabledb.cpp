@@ -155,6 +155,8 @@ CABLES_TYPES CableDB::getCableType(const char *given_name)
     return CABLE_FX2;
   if (strcasecmp(given_name, "xpc") == 0)
     return CABLE_XPC;
+  if (strcasecmp(given_name, "rpi") == 0)
+    return CABLE_RPI;
   return CABLE_UNKNOWN;
 }
 
@@ -167,6 +169,7 @@ const char *CableDB::getCableName(const CABLES_TYPES type )
     case CABLE_FX2: return  "fx2";
     case CABLE_XPC: return "xpc";
     case CABLE_NONE: return "none";
+    case CABLE_RPI: return "rpi";
     case CABLE_UNKNOWN: return "unknown";
     }
     return "UNKNOWN";

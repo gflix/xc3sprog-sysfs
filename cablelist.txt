@@ -36,6 +36,7 @@ llbbc08       fx2     0       0xfffe:0x0018
 qdu16         fx2     0       0xfffe:0x0018                                        
 pp            pp      0       NULL                                                 
 dlc5          pp      0       NULL                                                 
+raspberrypi   rpi     0       NULL                                                 
 jtaghs1       ftdi    1500000 0x0403:0x6010:Digilent Adept USB Device:0:0x80:0x80:0x00:0x0
 jtaghs1_fast  ftdi   30000000 0x0403:0x6010:Digilent Adept USB Device:0:0x80:0x80:0x00:0x0
 nexys4        ftdi    6000000 0x0403:0x6010:Digilent USB Device:0:0xe8:0xeb:0x00:0x60

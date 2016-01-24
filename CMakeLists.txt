@@ -137,7 +137,7 @@ add_library(xc3sproglib  STATIC ioftdi.cpp iofx2.cpp
 			progalgavr.cpp progalgxc2c.cpp  mapfile_xc2c.cpp
 			ioxpc.cpp progalgspiflash.cpp bitrev.cpp
                         cabledb.cpp pdioverjtag.cpp xmega_pdi_nvm.cpp
-                        ${CONDITIONAL_FILES} devices.h cables.h)
+                        ${CONDITIONAL_FILES} iorpi.cpp devices.h cables.h)
 
 add_executable(xc2c_warp xc2c_warp.cpp)
 target_link_libraries(xc2c_warp xc3sproglib ${CONDITIONAL_LIBS})
